@@ -7,6 +7,6 @@ Hilos(Thread) -> Segmentos de código de un programa que se ejecutan secuencialm
 **Métodos (clase Thread):**  
  - start() -> Crea un nuevo hilo e inicia su ejecución (llamando a run())
  - run() -> Contiene el código a ejecutar por el hilo
-         -> Cuando termina su ejecución, el hilo se destruye (muere)  
-join() -> Espera a que el hilo correspondiente termine  
-sleep() -> El hilo se “duerme” durante un tiempo determinado  
+         -> Cuando termina su ejecución, el hilo se destruye (muere)
+ - join() -> Espera a que el hilo correspondiente termine
+ - sleep() -> El hilo se “duerme” durante un tiempo determinado  
