@@ -17,26 +17,28 @@ Dos maneras: En ambos casos hay que definir el método run()
  2. Implementar la interfaz Runnable  
 
 ```java
-🔸**Creación heredando de Thread:**  
+###🔸Creación heredando de Thread:
 public class EjemploHilo extends Thread {  
     public void run()  
-  {  
-    // Código del hilo  
-}  
+    {  
+      // Código del hilo  
+    }  
 }  
 
-Para instanciarlo y ejecutarlo:  
+Para instanciarlo y ejecutarlo:
+
 EjemploHilo t = new EjemploHilo();  
 t.start();  
 
-🔸**Creación implementando Runnable:**  
+###🔸Creación implementando Runnable: 
 public class EjemploHilo implements Runnable {  
-public void run()  
-{  
-// Código del hilo  
-}  
+    public void run()  
+    {  
+       // Código del hilo  
+    }  
 }  
 
-Para instanciarlo y ejecutarlo:  
+Para instanciarlo y ejecutarlo:
+  
 Thread t = new Thread(new EjemploHilo());  
 t.start();  
