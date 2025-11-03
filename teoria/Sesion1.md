@@ -12,14 +12,13 @@ Hilos(Thread) -> Segmentos de código de un programa que se ejecutan secuencialm
  - sleep() -> El hilo se “duerme” durante un tiempo determinado  
 
 🔸**Creación de hilos en Java:**  
-Dos maneras:
+Dos maneras: En ambos casos hay que definir el método run()
  1. Heredar de la clase Thread
  2. Implementar la interfaz Runnable  
-En ambos casos hay que definir el método run()
 
 🔸**Creación heredando de Thread:**  
 public class EjemploHilo extends Thread {  
-  public void run()  
+ public void run()  
   {  
 // Código del hilo  
 }  
