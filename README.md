@@ -17,7 +17,7 @@ Creación de hilos en Java:
 En ambos casos hay que definir el método run()
 
 Creación heredando de Thread:
-1. public class EjemploHilo extends Thread {
+public class EjemploHilo extends Thread {
   public void run()
   {
     // Código del hilo
