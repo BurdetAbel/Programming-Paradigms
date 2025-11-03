@@ -16,6 +16,7 @@ Dos maneras: En ambos casos hay que definir el método run()
  1. Heredar de la clase Thread
  2. Implementar la interfaz Runnable  
 
+```java
 🔸**Creación heredando de Thread:**  
 public class EjemploHilo extends Thread {  
     public void run()  
