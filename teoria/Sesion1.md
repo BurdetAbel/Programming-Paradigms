@@ -14,7 +14,7 @@ Hilos(Thread) -> Segmentos de código de un programa que se ejecutan secuencialm
 🔸**Creación de hilos en Java:**  
 Dos maneras:
  1. Heredar de la clase Thread
- 2. Implementar la interfaz Runnable
+ 2. Implementar la interfaz Runnable  
 En ambos casos hay que definir el método run()
 
 🔸**Creación heredando de Thread:**  
