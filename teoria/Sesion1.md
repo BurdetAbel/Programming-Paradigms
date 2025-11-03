@@ -18,7 +18,7 @@ Dos maneras: En ambos casos hay que definir el método run()
 
 🔸**Creación heredando de Thread:**  
 public class EjemploHilo extends Thread {  
- public void run()  
+    public void run()  
   {  
 // Código del hilo  
 }  
