@@ -1,4 +1,4 @@
-##SESION 2
+## SESION 2
 🔸**Sección crítica**  
 Fragmento de código donde la corrección de un programa se ve comprometida por el uso de variables compartidas  
 Solución: Asegurar la ejecución en exclusión mutua de toda SC sobre una misma variable compartida  
