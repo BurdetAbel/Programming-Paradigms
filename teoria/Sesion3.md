@@ -25,7 +25,7 @@ Usados sobre la condición, una vez se ha obtenido el cerrojo (cerrojo.lock())
   - signal() -> Uno de los hilos de la cola pasa a listo  
   - signalAll() -> Todos los hilos de la cola son desbloqueados y pasan a listos  
 
-<img width="498" height="540" alt="image" src="https://github.com/user-attachments/assets/96edd497-eef8-46d1-b2a9-4a6005ec2fb6" />
+<img width="498" height="540" alt="image" src="https://github.com/user-attachments/assets/96edd497-eef8-46d1-b2a9-4a6005ec2fb6" />  
   
 🔸**Consideraciones**  
 Dado que signalAll() despierta a todos los hilos, es posible que se active un hilo que no cumple la condición de espera  
