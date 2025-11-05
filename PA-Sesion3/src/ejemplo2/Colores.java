@@ -9,8 +9,8 @@ package ejemplo2;
 
 public class Colores extends javax.swing.JFrame
 {
-    private Paso paso = new Paso();
-    private boolean botonPulsado = false;
+    private Paso paso = new Paso(); 
+    private boolean botonPulsado = false; //Bloquear hilos
 
     /** Creates new form Colores */
     public Colores()
