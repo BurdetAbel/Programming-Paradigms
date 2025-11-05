@@ -15,11 +15,11 @@
 ------ 
 
   - Error: rejected o fetch first
-  - git pull --rebase origin main
+  -     git pull --rebase origin main
   - Error:merge conflict
-  - git add .
-  - git rebase --continue
-  - git push
+  -     git add .
+  -     git rebase --continue
+  -     git push
 
 ------
 
