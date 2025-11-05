@@ -55,6 +55,7 @@ public void receptor()
 }
 ```
 El hilo ejecutor se bloquea si la condición no se cumple, esperando a que le manden una señal  
+  
 🔸Emisor de la señal:
 ```java
 public void emisor()
