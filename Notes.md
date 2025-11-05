@@ -14,9 +14,9 @@
 
 ------ 
 
-  - **Error: rejected o fetch first*
+*Error: rejected o fetch first*
   -     git pull --rebase origin main
-  - **Error:merge conflict*
+*Error:merge conflict*
   -     git add .
   -     git rebase --continue
   -     git push
