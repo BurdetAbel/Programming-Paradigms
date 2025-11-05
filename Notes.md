@@ -1,7 +1,6 @@
 ## Git Hub setting  
 
-ADD PROJECT TO REPOSITORY
--------------------------
+**ADD PROJECT TO REPOSITORY**
 
   - cd project directory
   - (Git Bash)
