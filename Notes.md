@@ -13,6 +13,8 @@ ADD PROJECT TO REPOSITORY
   - git pull --rebase origin main (you should update current project)
   - git push -u origin main
 
+------ 
+
   - Error: rejected o fetch first
   - git pull --rebase origin main
   - Error:merge conflict
